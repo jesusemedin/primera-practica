@@ -23,6 +23,18 @@ var camarozl1 = {
     awd: false,
     nombre: "CAMARO ZL1"
 };
+var mustanggt = {
+    hp: 640,
+    topspeed: 300,
+    Weight: 1761,
+    torque: 600,
+    price: 63000,
+    acceleration: 35,
+    country: "usa",
+    yearmodel:2018,
+    awd: false,
+    nombre: "Mustang GT"
+};
 var carro = m3;
 var puntos = 0;
 
@@ -62,4 +74,4 @@ if(carro.awd == true){
     puntos ++;
 }
 
-alert("Tu carro " + carro.nombre + " tiene " + puntos);
+alert("Tu carro " + carro.nombre +"año: " + carro.yearmodel+ " tiene " + puntos);
