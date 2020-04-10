@@ -23,7 +23,7 @@ var camarozl1 = {
     awd: false,
     nombre: "CAMARO ZL1"
 };
-var carro = camarozl1;
+var carro = m3;
 var puntos = 0;
 
 if(carro.hp > 500){
