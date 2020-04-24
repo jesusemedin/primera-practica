@@ -75,3 +75,33 @@ if(carro.awd == true){
 }
 
 alert("Tu carro " + carro.nombre +"año: " + carro.yearmodel+ " tiene " + puntos);
+
+function generarNumeroBingo(){
+
+    var letra = Math.floor((Math.random() * 5) + 1);
+
+    //DEBERIAMOS PREGUNTARNOS ¿QUE PASARIA SI SALE UNA LETRA QUE YA DIJE TODOS SUS NUMEROS?
+    //¿COMO EVITO QUE LLAME UNA LETRA QUE YA SE DIJO TODOS SUS NUMEROS?
+
+    if(letra==1){
+        console.log("B");
+        generarNumeroLetra(1,15);
+    }else{
+
+        if(letra==2){
+           console.log("I");
+           generarNumeroLetra(16,31);
+       }else{
+        //asi hasta llegar a la O
+       }
+   }
+
+}
+
+function generarNumeroLetra(min,max){
+    //¿QUE PASARIA SI UNA LETRA REPITE EL MISMO NUMERO?
+     //¿COMO EVITO QUE SALGA EL MISMO NUMERO EN UNA LETRA ?
+    var numeroLetra=Math.floor((Math.random() * max) + min);
+
+    console.log(numeroLetra) 
+}
