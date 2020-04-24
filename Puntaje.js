@@ -1,6 +1,6 @@
 
 var m3 = {
-    hp: 425,
+    hp: 430,
     topspeed: 280,
     weight: 1657,
     torque: 406,
@@ -12,7 +12,7 @@ var m3 = {
     nombre: "BMW M3"
 };
 var camarozl1 = {
-    hp: 650,
+    hp: 660,
     topspeed: 300,
     Weight: 1761,
     torque: 600,
